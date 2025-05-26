@@ -17,24 +17,36 @@
   <main>
     <section id="servicios">
       <h2>Servicios</h2>
-      <p>Ofrecemos impresión digital, offset, y más.</p>
+      <ul>
+        <li>Impresión digital</li>
+        <li>Impresión offset</li>
+        <li>Diseño gráfico</li>
+        <li>Tarjetas de presentación</li>
+        <li>Volantes y folletos</li>
+      </ul>
     </section>
     <section id="portafolio">
       <h2>Portafolio</h2>
-      <p>Algunos de nuestros trabajos destacados.</p>
+      <div class="galeria">
+        <img src="https://via.placeholder.com/200x150?text=Trabajo+1" alt="Trabajo 1">
+        <img src="https://via.placeholder.com/200x150?text=Trabajo+2" alt="Trabajo 2">
+        <img src="https://via.placeholder.com/200x150?text=Trabajo+3" alt="Trabajo 3">
+      </div>
     </section>
     <section id="contacto">
       <h2>Contacto</h2>
-      <form>
+      <form id="form-contacto">
         <input type="text" placeholder="Nombre" required>
         <input type="email" placeholder="Correo" required>
         <textarea placeholder="Mensaje" required></textarea>
         <button type="submit">Enviar</button>
       </form>
+      <div id="mensaje-exito" class="oculto">¡Gracias por contactarnos!</div>
     </section>
   </main>
   <footer>
     <p>&copy; 2025 Imprenta Ejemplo</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
